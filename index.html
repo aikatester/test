@@ -1,169 +1,85 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title></title>
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="2575.7">
-  <style type="text/css">
-    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
-    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
+  <meta charset="UTF-8">
+  <title>9x8 Table</title>
+  <style>
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+    th, td {
+      border: 1px solid #333;
+      padding: 8px;
+      text-align: center;
+    }
+    th {
+      background-color: #f2f2f2;
+    }  
+    img {
+      width: 50px; /* маленький размер */
+      height: auto;
+      transition: all 0.6s ease-in-out; /* плавное увеличение */
+      cursor: pointer;
+    }
+
+    img:hover {
+      width: 50vw; /* половина экрана */
+      height: auto;
+    }
+    
+    }
   </style>
 </head>
 <body>
-<p class="p1">&lt;!DOCTYPE html&gt;</p>
-<p class="p1">&lt;html lang="en"&gt;</p>
-<p class="p1">&lt;head&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;meta charset="UTF-8"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;title&gt;9x8 Table&lt;/title&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;style&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>table {</p>
-<p class="p1"><span class="Apple-converted-space">      </span>border-collapse: collapse;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>width: 100%;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>}</p>
-<p class="p1"><span class="Apple-converted-space">    </span>th, td {</p>
-<p class="p1"><span class="Apple-converted-space">      </span>border: 1px solid #333;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>padding: 8px;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>text-align: center;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>}</p>
-<p class="p1"><span class="Apple-converted-space">    </span>th {</p>
-<p class="p1"><span class="Apple-converted-space">      </span>background-color: #f2f2f2;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>} <span class="Apple-converted-space"> </span></p>
-<p class="p1"><span class="Apple-converted-space">    </span>img {</p>
-<p class="p1"><span class="Apple-converted-space">      </span>width: 50px; /* маленький размер */</p>
-<p class="p1"><span class="Apple-converted-space">      </span>height: auto;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>transition: all 0.6s ease-in-out; /* плавное увеличение */</p>
-<p class="p1"><span class="Apple-converted-space">      </span>cursor: pointer;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>}</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">    </span>img:hover {</p>
-<p class="p1"><span class="Apple-converted-space">      </span>width: 50vw; /* половина экрана */</p>
-<p class="p1"><span class="Apple-converted-space">      </span>height: auto;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>}</p>
-<p class="p2"><span class="Apple-converted-space">    </span></p>
-<p class="p1"><span class="Apple-converted-space">    </span>}</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;/style&gt;</p>
-<p class="p1">&lt;/head&gt;</p>
-<p class="p1">&lt;body&gt;</p>
-<p class="p2"><br></p>
-<p class="p2"><span class="Apple-converted-space"> </span></p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;table&gt;</p>
-<p class="p2"><span class="Apple-converted-space">    </span></p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;tbody&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;!-- 7 rows of data --&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;tr&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;th class="header" colspan="8"&gt;Скорость загрузки страниц &amp;nbsp;&amp;nbsp; LUKS &amp;nbsp;&amp;nbsp; 24.09&lt;/th&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/tr&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;!-- Second Header Row --&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;tr&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;th class="main-page" colspan="2"&gt;главная страница&lt;/th&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;th class="login" colspan="2"&gt;логин&lt;/th&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;th class="register" colspan="2"&gt;регистрация&lt;/th&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;th class="lobby" colspan="2"&gt;лобби&lt;/th&gt;</p>
-<p class="p2"><span class="Apple-converted-space">      </span></p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/tr&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;!-- Third Header Row (Mobile/Desktop) --&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;tr&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;td class="main-page"&gt;Mobile&lt;/td&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;td class="main-page"&gt;Desktop&lt;/td&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;td class="login"&gt;Mobile&lt;/td&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;td class="login"&gt;Desktop&lt;/td&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;td class="register"&gt;Mobile&lt;/td&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;td class="register"&gt;Desktop&lt;/td&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;td class="lobby"&gt;Mobile&lt;/td&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;td class="lobby"&gt;Desktop&lt;/td&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/tr&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;tr&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;td&gt;&lt;img src="images/1kMainMobile1.png" &gt;&lt;/td&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;td&gt;&lt;img src="images/1kMainDesk1.png"&gt;&lt;/td&gt;<span class="Apple-converted-space"> </span></p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;td&gt;&lt;img src="images/1kLoginMobile1.png"&gt;&lt;/td&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;td&gt;&lt;img src="images/1kLoginDesk1.png"&gt;&lt;/td&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;td&gt;&lt;img src="images/1kRegMobile1.png"&gt;&lt;/td&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;td&gt;&lt;img src="images/1kRegDesk1.png"&gt;&lt;/td&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;td&gt;&lt;img src="images/1kLobbyMobile1.png"&gt;&lt;/td&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;td&gt;&lt;img src="images/1kLobbyDesk1.png"&gt;&lt;/td&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;td&gt;Перывый тест&lt;/td&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;/tr&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;tr&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;td&gt;&lt;img src="images/1kMainMobile2.png"&gt;&lt;/td&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;td&gt;&lt;img src="images/1kMainDesk2.png"&gt;&lt;/td&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;td&gt;&lt;img src="images/1kLoginMobile2.png"&gt;&lt;/td&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;td&gt;&lt;img src="images/1kLoginDesk2.png"&gt;&lt;/td&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;td&gt;&lt;img src="images/1kRegMobile2.png"&gt;&lt;/td&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;td&gt;&lt;img src="images/1kRegDesk2.png"&gt;&lt;/td&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;td&gt;&lt;img src="images/1kLobbymobile2.png"&gt;&lt;/td&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;td&gt;&lt;img src="images/1kLobbyDesk2.png"&gt;&lt;/td&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;td&gt;Второй тест&lt;/td&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;/tr&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;tr&gt;</p>
-<p class="p2"><span class="Apple-converted-space">       </span></p>
-<p class="p2"><span class="Apple-converted-space">      </span></p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/tbody&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;/table&gt;</p>
-<p class="p2"><span class="Apple-converted-space">  </span></p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;br&gt;</p>
-<p class="p2"><span class="Apple-converted-space">  </span></p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;table&gt;</p>
-<p class="p2"><span class="Apple-converted-space">    </span></p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;tbody&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;!-- 7 rows of data --&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;tr&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;th class="header" colspan="8"&gt;Скорость загрузки страниц &amp;nbsp;&amp;nbsp; LUKS &amp;nbsp;&amp;nbsp; 24.09&lt;/th&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/tr&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;!-- Second Header Row --&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;tr&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;th class="main-page" colspan="2"&gt;главная страница&lt;/th&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;th class="login" colspan="2"&gt;логин&lt;/th&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;th class="register" colspan="2"&gt;регистрация&lt;/th&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;th class="lobby" colspan="2"&gt;лобби&lt;/th&gt;</p>
-<p class="p2"><span class="Apple-converted-space">      </span></p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/tr&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;!-- Third Header Row (Mobile/Desktop) --&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;tr&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;td class="main-page"&gt;Mobile&lt;/td&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;td class="main-page"&gt;Desktop&lt;/td&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;td class="login"&gt;Mobile&lt;/td&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;td class="login"&gt;Desktop&lt;/td&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;td class="register"&gt;Mobile&lt;/td&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;td class="register"&gt;Desktop&lt;/td&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;td class="lobby"&gt;Mobile&lt;/td&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;td class="lobby"&gt;Desktop&lt;/td&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/tr&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;tr&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;td&gt;&lt;img src="images/LuksMainMobile1.png" &gt;&lt;/td&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;td&gt;&lt;img src="images/LuksMainDesk1.png"&gt;&lt;/td&gt;<span class="Apple-converted-space"> </span></p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;td&gt;&lt;img src="images/LuksLoginMobile1.png"&gt;&lt;/td&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;td&gt;&lt;img src="images/LuksLoginDesk1.png"&gt;&lt;/td&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;td&gt;&lt;img src="images/LuksRegMobile1.png"&gt;&lt;/td&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;td&gt;&lt;img src="images/LuksRegDesk1.png"&gt;&lt;/td&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;td&gt;&lt;img src="images/LuksLobbyMobile1.png"&gt;&lt;/td&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;td&gt;&lt;img src="images/LuksLobbyDesk1.png"&gt;&lt;/td&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;td&gt;Перывый тест&lt;/td&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;/tr&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;tr&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;td&gt;&lt;img src="images/LuksMainMobile2.png"&gt;&lt;/td&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;td&gt;&lt;img src="images/LuksMainDesk2.png"&gt;&lt;/td&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;td&gt;&lt;img src="images/LuksLoginMobile2.png"&gt;&lt;/td&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;td&gt;&lt;img src="images/LuksLoginDesk2.png"&gt;&lt;/td&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;td&gt;&lt;img src="images/LuksRegMobile2.png"&gt;&lt;/td&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;td&gt;&lt;img src="images/LuksRegDesk2.png"&gt;&lt;/td&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;td&gt;&lt;img src="images/LuksLobbymobile2.png"&gt;&lt;/td&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;td&gt;&lt;img src="images/LuksLobbyDesk2.png"&gt;&lt;/td&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;td&gt;Второй тест&lt;/td&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;/tr&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;tr&gt;</p>
-<p class="p2"><span class="Apple-converted-space">       </span></p>
-<p class="p2"><span class="Apple-converted-space">      </span></p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/tbody&gt;</p>
-<p class="p2"><br></p>
-<p class="p1">&lt;/body&gt;</p>
-<p class="p1">&lt;/html&gt;</p>
+
+  <table>
+    
+    <tbody>
+      <!-- 7 rows of data -->
+      <tr>
+      <th class="header" colspan="8">Скорость загрузки страниц &nbsp;&nbsp; 1KING &nbsp;&nbsp; 23.09</th>
+    </tr>
+
+    <!-- Second Header Row -->
+    <tr>
+      <th class="main-page" colspan="2">главная страница</th>
+      <th class="login" colspan="2">логин</th>
+      <th class="register" colspan="2">регистрация</th>
+      <th class="lobby" colspan="2">лобби</th>
+      
+    </tr>
+
+    <!-- Third Header Row (Mobile/Desktop) -->
+    <tr>
+      <td class="main-page">Mobile</td>
+      <td class="main-page">Desktop</td>
+      <td class="login">Mobile</td>
+      <td class="login">Desktop</td>
+      <td class="register">Mobile</td>
+      <td class="register">Desktop</td>
+      <td class="lobby">Mobile</td>
+      <td class="lobby">Desktop</td>
+
+    </tr>
+      <tr>
+        <td><img src="https://uploads.onecompiler.io/43xp4wze3/43xp4wbb2/cat.jpg" alt="котик"></td><td>R1C2</td><td>R1C3</td><td>R1C4</td><td>R1C5</td><td>R1C6</td><td>R1C7</td><td>R1C8</td>
+      </tr>
+      <tr>
+        <td>R2C1</td><td>R2C2</td><td>R2C3</td><td>R2C4</td><td>R2C5</td><td>R2C6</td><td>R2C7</td><td>R2C8</td>
+      </tr>
+      <tr>
+        <td>R3C1</td><td>R3C2</td><td>R3C3</td><td>R3C4</td><td>R3C5</td><td>R3C6</td><td>R3C7</td><td>R3C8</td>
+      </tr>
+      <tr>
+        <td>R4C1</td><td>R4C2</td><td>R4C3</td><td>R4C4</td><td>R4C5</td><td>R4C6</td><td>R4C7</td><td>R4C8</td>
+      </tr>
+      <tr>
+        <td>R5C1</td><td>R5C2</td><td>R5C3</td><td>R5C4</td><td>R5C5</td><td>R5C6</td><td>R5C7</td><td>R5C8</td>
+      </tr>
+      
+    </tbody>
+  </table>
+
 </body>
 </html>
